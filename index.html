@@ -22,7 +22,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top fw-bold">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top fw-bold" id="navbar">
         <div class="container">
 
             <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="logo" class="img-logo">Viajes Chile</a>
@@ -36,23 +37,23 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#destacados" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Destacados
                 </a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item " href="#">Atacama</a></li>
-                            <li><a class="dropdown-item" href="#">Valle la Luna</a></li>
+                            <li><a class="dropdown-item " href="#destacados">Atacama</a></li>
+                            <li><a class="dropdown-item" href="#destacados">Valle la Luna</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Iquique</a></li>
+                            <li><a class="dropdown-item" href="#destacados">Iquique</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Contacto</a>
+                        <a class="nav-link " href="#contacto">Contacto</a>
                     </li>
                 </ul>
 
@@ -87,7 +88,7 @@
     <main class="m-5">
 
         <!--Quienes Somos-->
-        <section class="d-none d-sm-block mt-5">
+        <section class="d-none d-sm-block mt-5" data-bs-target="#list-example" id="quienesSomos">
             <h3 class="text-center my-5">¿Quienes Somos?</h3>
             <div class="container-fluid row ">
                 <div class="col-12 col-lg-4 col-sm-12">
@@ -112,7 +113,7 @@
         </section>
 
         <!--Destacados-->
-        <section>
+        <section id="destacados">
             <h3 class="text-center my-5">Destacados</h3>
             <div class=" container-fluid row ">
                 <div class="col-12 col-lg-3 col-md-3 col-sm-12">
@@ -161,11 +162,11 @@
 
         <!--Contacto-->
         <section>
-            <h3 class="text-center my-3">Contacto</h3>
+            <h3 class="text-center my-3" id="contacto">Contacto</h3>
             <div class=" text-center contenedor p-4 m-3">
                 <div class="texto-contacto">
                     <p class="display-6">Hola, gracias por contactarnos.</p>
-                    <button href="#" class="btn boton-contacto">Empezar</button><span>Pulsa Enter</span>
+                    <button href="#" class="btn boton-contacto" data-bs-toggle="tooltip" data-bs-placement="right" title="empezar">Empezar</button><span>Pulsa Enter</span>
                 </div>
             </div>
         </section>
