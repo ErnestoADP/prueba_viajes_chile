@@ -1,9 +1,89 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .img-logo {
     width: 35px;
 }
 
-.imagen1 {}
+.navbar {
+    background-color: transparent !important;
+    color: white!important;
+}
+
+
+/**CSS CARTAS DESTACADOS*/
+
+.card {
+    background-color: #18a4bc
+}
+
+.img-card {
+    max-width: 100%;
+    height: 250px;
+}
+
+
+/**-----------------------------------------*/
+
+
+/**CSS DE QUIENES SOMOS*/
+
+.color-item {
+    background-color: #18a4bc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+/**-----------------------------------------*/
+
+
+/**CSS DE TODOS LOS H3*/
+
+h3 {
+    border-bottom: 1px solid #18a4bc;
+    padding-bottom: 15px;
+}
+
+
+/**-----------------------------------------*/
+
+
+/**CSS CONTACTO*/
+
+.texto-contacto {
+    padding-top: 90px;
+}
+
+.contenedor {
+    background-color: white;
+    color: black;
+    height: 323px;
+}
+
+.boton-contacto {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/**-----------------------------------------*/
+
+
+/**CSS FOOTER*/
+
+footer {
+    background-color: #18a4bc;
+}
+
+.icon {
+    padding: 10px;
+}
+
+
+/**-----------------------------------------*/
